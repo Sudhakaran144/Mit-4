@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mit 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+       <div class="head">
+            <h1>CONTACT MANAGER</h1>
+       </div>
+       <div class="form">
+        <h1>Add Contact</h1>
+        <div class="name">
+            <label>Name</label>
+            <input type="text" placeholder="Name" id="name" required autocomplete="off">
+        </div>
+        <div class="email">
+            <label>Email address</label>
+            <input type="email" placeholder="Email" id="email" required autocomplete="off">
+        </div>
+        <div class="category">
+            <label >Category</label>
+            <select  id="category">
+                <option value="All">All</option>
+                <option value="home">Home</option>
+                <option value="Collage">Collage</option>
+                <option value="Company">Company</option>
+            </select>
+        </div>
+        <button id="btn">Submit</button>
+        <hr>
+       </div>
+       <div class="category-item">
+        <p class="all">All</p>
+        <p class="home">Home</p>
+        <p class="collage">Collage</p>
+        <p class="company">Company</p>
+       </div>
+       <ul class="list_container">
+
+       </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
